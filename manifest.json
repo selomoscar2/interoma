@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "name": "My Private Translation Helper",
+  "description": "Helps with advanced translation workflows",
+  "homepage_url": "https://example.com",
+  "vendor": "viroina",
+  "vendor_url": "https://example.com",
+  "scopes": [
+    "project.read",
+    "translation.write"
+  ],
+  "redirect_uris": [
+    "https://example.com/oauth/callback"
+  ],
+  "webhooks": [
+    "https://example.com/webhooks"
+  ]
+}
